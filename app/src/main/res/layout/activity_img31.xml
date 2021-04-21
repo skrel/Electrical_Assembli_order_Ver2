@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:text="@string/BUTTON8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_blue"
+            android:textSize="24sp"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+    <ImageView android:contentDescription="@string/description" android:src="@drawable/img31" android:layout_width="400dp" android:layout_height="200dp"/>
+
+    <TextView android:text="@string/textView24" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/img31editText1" android:hint="@string/textView17" android:inputType="text" tools:ignore="Autofill" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="@string/textView25" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/img31editText2" android:hint="@string/textView17" android:inputType="text" tools:ignore="Autofill" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="@string/textView20" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/img31editText3" android:inputType="text" tools:ignore="Autofill" android:hint="@string/textView26" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="@string/textView16" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/img31editText4" android:hint="@string/textView17" android:inputType="text" tools:ignore="Autofill" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:background="#ffffff"
+              android:layout_height="match_parent">
+
+
+    <Button
+            android:text="@string/BUTTON1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_blue"
+            android:textSize="24sp"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+    <Button
+            android:text="@string/BUTTON3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_blue"
+            android:textSize="24sp"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+    <Button
+            android:text="@string/BUTTON4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_blue"
+            android:textSize="24sp"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+    <Button
+            android:text="@string/BUTTON5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_blue"
+            android:textSize="24sp"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+    <Button
+            android:text="@string/BUTTON6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_blue"
+            android:textSize="24sp"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+    <Button
+            android:text="@string/BUTTON2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:background="@drawable/custom_button_blue"
+            android:textColor="#FA71CD"/>
+
+
+</LinearLayout>

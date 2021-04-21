@@ -1,0 +1,121 @@
+<resources>
+
+    //APP NAME
+    <string name="app_name">android_app</string>
+
+    //BUTTONS
+    //activity_main_menu
+    <string name="BUTTON1">BOX</string>
+    <string name="BUTTON2">CART</string>
+    <string name="BUTTON3">PANEL</string>
+    <string name="BUTTON4">CONDUIT</string>
+    <string name="BUTTON5">SUPPORT</string>
+    <string name="BUTTON6">CABLE</string>
+
+    //activity_first_screen
+    <string name="MAIN">MAIN MENU</string>
+    <string name="ABOUT">ABOUT</string>
+
+    //activity_cart
+    <string name="BUTTON7">EXPORT DATA</string>
+    <string name="BUTTON9">VIEW ALL</string>
+    <string name="BUTTON10">DELETE</string>
+
+    //activity_box
+    <string name="BUTTON11">VIEW DETAILS</string>
+    <string name="textView12"> Mudring and Device:</string>
+    <string name="textView13"> Box and Bracket:</string>
+    <string name="textView14"> Connector, Cable and Other:</string>
+    <string name="textView15">Addin: connectors, MC, conduits etc.</string>
+    <string name="textView16"> QTY:</string>
+    <string name="textView17"> </string>
+    <string name="BUTTON12">VIEW DETAILS</string>
+    <string name="BUTTON13">VIEW DETAILS</string>
+    <string name="BUTTON14">VIEW DETAILS</string>
+    <string name="BUTTON15">VIEW DETAILS</string>
+    <string name="BUTTON16">VIEW DETAILS</string>
+    <string name="BUTTON17">VIEW DETAILS</string>
+    <string name="BUTTON18">VIEW DETAILS</string>
+    <string name="BUTTON19">VIEW DETAILS</string>
+    <string name="BUTTON20">VIEW DETAILS</string>
+    <string name="BUTTON21">VIEW DETAILS</string>
+    <string name="BUTTON22">VIEW DETAILS</string>
+    <string name="BUTTON23">VIEW DETAILS</string>
+    <string name="BUTTON24">VIEW DETAILS</string>
+    <string name="BUTTON25">VIEW DETAILS</string>
+    <string name="BUTTON26">VIEW DETAILS</string>
+    <string name="BUTTON27">VIEW DETAILS</string>
+    <string name="BUTTON28">VIEW DETAILS</string>
+    <string name="BUTTON29">VIEW DETAILS</string>
+    <string name="BUTTON30">VIEW DETAILS</string>
+    <string name="BUTTON31">VIEW DETAILS</string>
+
+    //activity_support
+    <string name="BUTTON32">VIEW DETAILS</string>
+    <string name="textView18"> Size:</string>
+    <string name="textView19"> Height:</string>
+    <string name="textView20"> Other:</string>
+    <string name="textView21">Enter additional info</string>
+    <string name="BUTTON33">VIEW DETAILS</string>
+    <string name="BUTTON34">VIEW DETAILS</string>
+
+    //activity_panel
+    <string name="BUTTON35">VIEW DETAILS</string>
+    <string name="textView24">  Size LxWxH:</string>
+    <string name="textView25"> Manufacture:</string>
+    <string name="textView26">Addin: connectors, MC, conduits, etc.</string>
+    <string name="BUTTON36">VIEW DETAILS</string>
+    <string name="BUTTON37">VIEW DETAILS</string>
+    <string name="BUTTON38">VIEW DETAILS</string>
+
+    //activity_cable
+    <string name="BUTTON39">VIEW DETAILS</string>
+    <string name="textView27"> MC Type and Jacket</string>
+    <string name="textView28"> MC Lendth</string>
+
+    //activity_conduit
+    <string name="BUTTON40">VIEW DETAILS</string>
+    <string name="textView22"> Conduit size:</string>
+    <string name="textView23"> Stub length and bending radius:</string>
+    <string name="BUTTON41">VIEW DETAILS</string>
+
+    //activity_prebox
+    <string name="BUTTON42">One Gang Ring - One Box</string>
+    <string name="BUTTON43">Two Gang Ring - One Box</string>
+    <string name="BUTTON44">One Gang Ring - Two Boxes</string>
+
+    //other
+    <string name="BUTTON8">ADD TO CART</string>
+
+
+
+
+    //NOT BUTTONS
+    <string name="Enter_Name">Enter Name</string>
+
+
+    //image view contentDescription
+    <string name="description"> </string>
+
+    //text view
+    <string name="textView4"> One Gang Ring - One Box</string>
+    <string name="textView5"> Two Gang Ring - One Box</string>
+    <string name="textView6"> One Gang Ring - Two Boxes</string>
+    <string name="textView7">"Build data to do prefabrication".
+        Components configurator was designed in order to optimize proper assembly,
+        and hence, proper function.
+        Divide complex electrical installations into manageable subassemblies
+        that can be prefabricated off site: wall roughing, light fixtures,
+        standalone transformer wiring, overhead and underground conduits and a lot more.
+        Boost productivity and profitability of design and prefabrication teams.
+        This tool can help you tie all pre-construction information together
+        throughout the entire project.</string>
+    <string name="textView8">Made with 💚 GitHub skrel</string>
+    <string name="textView9">PrefabSolutions</string>
+    <string name="textView10">Enter Item # You Want To Delete</string>
+
+
+    <string name="textView11">  #  </string>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+            <ImageView android:contentDescription="@string/description" android:layout_width="150dp" android:layout_height="100dp" android:layout_gravity="center" android:background="@drawable/img33_240x320"/>
+
+            <Button
+                    android:text="@string/BUTTON39"
+                    android:textSize="18sp"
+                    android:background="@drawable/custom_button_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button39"/>
+
+            <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>

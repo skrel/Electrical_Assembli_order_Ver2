@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.configurator.android_app"
+          tools:ignore="GoogleAppIndexingWarning">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    <activity
+            android:name=".FirstScreen"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="com.configurator.user.android_app.FirstScreen" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+                android:name=".About"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".MainMenu"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.MainMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Electrical"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Electrical" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Cart"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Cart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img1"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img3"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Box"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Box" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Support"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Support" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Panel"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Panel" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Conduit"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Conduit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Cable"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Cable" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Box2"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Box2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Box3"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Box3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Prebox"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Prebox" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Img5"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="com.configurator.user.android_app.Img5" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+                android:name=".Img7"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img9"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img11"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img15"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img15" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img13"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img13" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img32"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img32" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img2"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img4"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img6"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img8"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img10"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img12"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img16"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img16" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img14"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img14" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img20"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img20" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img21"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img21" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img22"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img22" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img24"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img24" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".sqlimport"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.sqlimport" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img17"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img17" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img18"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img18" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img19"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img19" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img25"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img25" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img26"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img26" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img28"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img28" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img30"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img30" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img31"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img31" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Img33"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.configurator.user.android_app.Img33" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

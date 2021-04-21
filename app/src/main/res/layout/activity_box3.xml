@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:text="@string/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/textView6"/>
+            <ImageView android:contentDescription="@string/description" android:layout_width="150dp" android:layout_height="100dp" android:layout_gravity="center" android:background="@drawable/img20_240x320"/>
+            <Button
+                    android:text="@string/BUTTON28"
+                    android:textSize="18sp"
+                    android:background="@drawable/custom_button_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button28"/>
+            <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+            <ImageView android:contentDescription="@string/description" android:layout_width="150dp" android:layout_height="100dp" android:layout_gravity="center" android:background="@drawable/img21_240x320"/>
+            <Button
+                    android:text="@string/BUTTON29"
+                    android:textSize="18sp"
+                    android:background="@drawable/custom_button_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button29"/>
+            <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+            <ImageView android:contentDescription="@string/description" android:layout_width="150dp" android:layout_height="100dp" android:layout_gravity="center" android:background="@drawable/img22_240x320"/>
+            <Button
+                    android:text="@string/BUTTON30"
+                    android:textSize="18sp"
+                    android:background="@drawable/custom_button_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button30"/>
+            <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+            <ImageView android:contentDescription="@string/description" android:layout_width="150dp" android:layout_height="100dp" android:layout_gravity="center" android:background="@drawable/img24_240x320"/>
+            <Button
+                    android:text="@string/BUTTON31"
+                    android:textSize="18sp"
+                    android:background="@drawable/custom_button_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button31"/>
+            <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+        </LinearLayout>
+    </ScrollView>
