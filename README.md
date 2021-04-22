@@ -1,5 +1,8 @@
 # Electrical_Assembli_order_Ver2
 
+![Downloads](https://img.shields.io/badge/configurator-v2.0-orange.svg)
+![Downloads](https://img.shields.io/badge/java-android-green.svg)
+
 An Android app. Available on Google Play.
 
 # Description
